@@ -42,6 +42,9 @@ Bu dosya, yapay zeka asistanının (Antigravity) proje yapısını tekrar tekrar
   - **Satır 45-380:** Üst HUD ve Ana Menü kart stilleri.
   - **Satır 381-son:** Esnek tam ekran Canvas (`.stage-container`, `.canvas-wrapper`), Modal ve Sanal Klavye stilleri.
 
+- `README.md`
+  - Proje tanıtımı, özellikler, kurulum (`npm run dev`, `npm run build`) ve yayınlama (deploy) rehberi.
+
 ## 3. Kredi / Token Tasarruf Kuralları
 1. **Dizin Taraması Yapma:** Dosya ağacı yukarıda tam olarak listelenmiştir. `Get-ChildItem` veya `find` çalıştırma.
 2. **Hedefli Okuma Yap:** Bir dosyayı düzenlemeden önce tamamını okumak yerine `read_file` aracında `StartLine` ve `EndLine` parametrelerini kullan.
